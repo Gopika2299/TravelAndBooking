@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const logger = require('../config/logger');
 const Catalog = require('../models/Catalog');
-const Booking = require('../models/booking');
+const Booking = require('../models/Booking');
 const nodemailer = require('nodemailer');
 const otpGenerator = require('generate-otp');
 
