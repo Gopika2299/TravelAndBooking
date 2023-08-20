@@ -58,6 +58,7 @@ exports.registerUser = async (req, res) => {
 
     res.status(200).json({ message: 'OTP sent for verification' });
   } catch (error) {
+    console.log("err",error)
     res.status(500).json({ error: 'An error occurred' });
   }
 };
