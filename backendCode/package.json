@@ -2,10 +2,13 @@
   "name": "nodejs-express",
   "version": "1.0.0",
   "description": "Node.js Rest Apis with Express",
-  "main": "server.js",
+  "main": "app.js",
   "outputCapture": "std",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./bin/www",
+    "prod": "node ./bin/www",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
   },
   "keywords": [
     "nodejs",
@@ -29,6 +32,7 @@
     "mongoose": "^7.4.3",
     "mysql2": "^2.0.2",
     "nodemailer": "^6.9.4",
+    "nodemon": "^3.0.1",
     "sequelize": "^6.21.0",
     "winston": "^3.10.0"
   }
