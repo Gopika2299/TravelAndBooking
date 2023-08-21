@@ -2,7 +2,7 @@
   "name": "nodejs-express",
   "version": "1.0.0",
   "description": "Node.js Rest Apis with Express",
-  "main": "server.js",
+  "main": "app.js",
   "outputCapture": "std",
   "scripts": {
     "start": "nodemon ./bin/www",
